@@ -5,7 +5,7 @@ number = -1234
 reverse_Number = 0
 
 if number < 0:
-    print(abs(number))
+    number = (abs(number))
 
 while number != 0:
     last_Digit = number % 10
