@@ -3,7 +3,7 @@ import math
 digit = -4
 
 if digit < 0:
-    print(abs(digit))
+    digit = (abs(digit))
 
 if digit % 2 == 0:
     print("EVEN")
